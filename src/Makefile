@@ -13,4 +13,5 @@ all:
 	./frm test
 
 	./fecho owo
-	timeout 1 ./fyes uwu
+	- timeout 1 ./fyes uwu
+	echo "No errors found."
