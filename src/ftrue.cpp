@@ -1,3 +1,3 @@
 int main() {
-  EXIT_SUCCESS
+  return 0;
 }
