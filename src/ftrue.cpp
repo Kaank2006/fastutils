@@ -1,1 +1,3 @@
-#define EXIT_STATUS EXIT_SUCCESS
+int main() {
+  EXIT_SUCCESS
+}
