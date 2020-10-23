@@ -7,7 +7,11 @@ all:
 	g++ fecho.cpp -o fecho -std="c++17"
 	g++ fyes.cpp -o fyes -std="c++17"
 	g++ fcat.cpp -o fcat -std="c++17"
+<<<<<<< HEAD
 	g++ fls.cpp -o fls -std=c++17 -lstdc++fs
+=======
+	g++ fls.cpp -o fls -std="c++17"
+>>>>>>> parent of 7602a67... fixed makefile
 
 	./ftouch test
 	./frm test
