@@ -11,7 +11,6 @@ all:
 
 	./ftouch test
 	./frm test
-	
-	./fecho owo
-	( ./fyes uwu ) & sleep 5 ; kill $!
 
+	./fecho owo
+	timeout 1 ./fyes uwu
