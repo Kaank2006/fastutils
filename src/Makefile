@@ -1,0 +1,17 @@
+all:
+
+	g++ ftrue.cpp -o ftrue -std="c++17"
+	g++ ffalse.cpp -o ffalse -std="c++17"
+	g++ frm.cpp -o frm -std="c++17"
+	g++ ftouch.cpp -o ftouch -std="c++17"
+	g++ fecho.cpp -o fecho -std="c++17"
+	g++ fyes.cpp -o fyes -std="c++17"
+	g++ fcat.cpp -o fcat -std="c++17"
+	g++ fls.cpp -o fls -std="c++17"
+
+	./ftouch test
+	./frm test
+	
+	./fecho owo
+	( ./fyes uwu ) & sleep 5 ; kill $!
+
