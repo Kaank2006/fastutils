@@ -7,7 +7,7 @@ all:
 	g++ fecho.cpp -o fecho -std="c++17"
 	g++ fyes.cpp -o fyes -std="c++17"
 	g++ fcat.cpp -o fcat -std="c++17"
-	g++ fls.cpp -o fls -std="c++17"
+	g++ fls.cpp -o fls -std="c++17" -lstdc++fs
 
 	./ftouch test
 	./frm test
