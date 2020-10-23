@@ -1,18 +1,14 @@
 all:
-
-	g++ ftrue.cpp -o ftrue -std="c++17"
-	g++ ffalse.cpp -o ffalse -std="c++17"
-	g++ frm.cpp -o frm -std="c++17"
-	g++ ftouch.cpp -o ftouch -std="c++17"
-	g++ fecho.cpp -o fecho -std="c++17"
-	g++ fyes.cpp -o fyes -std="c++17"
-	g++ fcat.cpp -o fcat -std="c++17"
-<<<<<<< HEAD
-	g++ fls.cpp -o fls -std=c++17 -lstdc++fs
-=======
-	g++ fls.cpp -o fls -std="c++17"
->>>>>>> parent of 7602a67... fixed makefile
-
+	mkdir ../out
+	g++ ftrue.cpp -o ../out/ftrue -std="c++17"
+	g++ ffalse.cpp -o ../out/ffalse -std="c++17"
+	g++ frm.cpp -o ../out/frm -std="c++17"
+	g++ ftouch.cpp -o ../out/ftouch -std="c++17"
+	g++ fecho.cpp -o ../out/fecho -std="c++17"
+	g++ fyes.cpp -o ../out/fyes -std="c++17"
+	g++ fcat.cpp -o ../out/fcat -std="c++17"
+	g++ fls.cpp -o ../out/fls -std=c++17 -lstdc++fs
+	
 	./ftouch test
 	./frm test
 
